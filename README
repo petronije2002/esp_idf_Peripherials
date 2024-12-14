@@ -1,0 +1,23 @@
+# PeripheralLibrary
+
+**PeripheralLibrary** is a reusable library for abstracting ESP32 peripherals, making it easy to use various functionalities like SPI, MCPWM, ADC, and others.
+
+## Features
+
+- **SPI**: Simplifies SPI communication with peripherals like the AS5048A encoder.
+- **AS5048A**: Provides methods to read raw angle data and compute the angle in degrees.
+- **MCPWM**: Abstracts motor control PWM generation.
+- **ADC**: Provides easy methods for analog-to-digital conversion and voltage scaling.
+
+## Installation
+
+Place the `PeripheralLibrary` folder inside the `lib/` directory of your PlatformIO project.
+
+```plaintext
+project/
+├── lib/
+│   ├── PeripheralLibrary/
+│   │   ├── include/
+│   │   ├── src/
+│   │   ├── README.md
+│   │   ├── library.json

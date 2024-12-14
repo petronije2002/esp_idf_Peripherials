@@ -1,0 +1,21 @@
+{
+    "name": "PeripheralLibrary",
+    "version": "1.0.0",
+    "description": "Reusable library for ESP32 peripherals including SPI, MCPWM, ADC, and AS5048A encoder.",
+    "keywords": ["ESP32", "SPI", "MCPWM", "ADC", "AS5048A", "Peripherals"],
+    "authors": [
+        {
+            "name": "Your Name",
+            "email": "your.email@example.com",
+            "url": "https://github.com/<your-username>/PeripheralLibrary"
+        }
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/<your-username>/PeripheralLibrary.git"
+    },
+    "frameworks": ["espidf"],
+    "platforms": ["espressif32"],
+    "homepage": "https://github.com/<your-username>/PeripheralLibrary",
+    "license": "MIT"
+}
